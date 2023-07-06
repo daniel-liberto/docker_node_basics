@@ -1,5 +1,5 @@
 {
-  "name": "redis-image",
+  "name": "docker_node_basics",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daniel-liberto/docker_redis_basics.git"
+    "url": "git+https://github.com/daniel-liberto/docker_node_basics.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/daniel-liberto/docker_redis_basics/issues"
+    "url": "https://github.com/daniel-liberto/docker_node_basics/issues"
   },
-  "homepage": "https://github.com/daniel-liberto/docker_redis_basics#readme"
+  "homepage": "https://github.com/daniel-liberto/docker_node_basics#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
