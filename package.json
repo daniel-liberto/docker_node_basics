@@ -2,22 +2,11 @@
   "name": "docker_node_basics",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/daniel-liberto/docker_node_basics.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/daniel-liberto/docker_node_basics/issues"
-  },
-  "homepage": "https://github.com/daniel-liberto/docker_node_basics#readme",
+  "main": "server.js",
+  "author": "author",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.17.1",
+    "body-parser": "1.19.0"
   }
 }
